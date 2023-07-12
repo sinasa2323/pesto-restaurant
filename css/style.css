@@ -1,0 +1,92 @@
+body{
+    font-family: Vazir;
+    text-align: right;
+    direction: rtl;
+    font-weight: 300;
+    background-color: rgb(237, 251, 237);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+#bg-header{
+    background-image: url("../img1/header.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 34rem;
+    
+    
+}
+#mynav{
+    background-color: rgb(0, 0, 0, 0.4);
+    font-size: 1.3rem;
+    
+}
+#mynav .nav-link , #mynav button a{
+    color: #eee
+}
+.navbar .navbar-brand {
+    font-size: 1.7rem;
+    color: rgb(9, 234, 9);
+    transition: color .2s ease-in-out;
+}
+.navbar .navbar-brand:hover {
+    color: rgb(4, 251, 148);
+}
+
+/* -------------------------------------- */
+/* main */
+
+#main {
+    width: 85%;
+    
+}
+
+@media screen and (max-width:1199.98px) {
+    #myvid{
+        height: 15rem;
+    }
+}
+
+.ghaza{
+    height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 11px 10px 10px 0px rgb(163, 211, 135);
+    transition: all .3s ease-in-out;
+}
+    
+.ghaza:hover{
+    opacity: .7;
+    transform: scale(1.1);
+}
+
+
+/* --------------------------------------- */
+/* reserve */
+
+.form-container{
+    background-image: url("../img1/IMG_20230622_112659_778.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+@media screen and (max-width:768px) {
+    #myform{
+        width: 85% !important;
+    }
+}
+
+#remember-me{
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 0.2rem;
+}
+
+#footer .row{
+    background-color: rgb(73, 241, 115);
+}
